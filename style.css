@@ -10,6 +10,7 @@ html {
     font-size: 16px;
     font-family: 'Oswald', sans-serif;
     scroll-behavior: smooth;
+    height: 100%;
 }
 
 /* NAVIGATION */
@@ -120,9 +121,6 @@ div.slider-container .slide4 {
 }
 
 @media only screen and (max-width: 767px) {
-    main {
-        top: 10vh;
-    }
 
     div.slider-container {
         position: relative;
@@ -378,7 +376,6 @@ form {
 form button {
     display: block;
     width: 25%;
-    margin-bottom: 2rem;
 }
 
 @media only screen and (max-width: 425px) {
@@ -395,6 +392,8 @@ form button {
 /* FOOTER */
 
 footer {
+    position: relative;
+    top: 18vh;
     background: #d5d5d5;
     height: 8rem;
     text-align: center;
