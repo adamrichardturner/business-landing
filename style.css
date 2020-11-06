@@ -275,7 +275,7 @@ section.services {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-shrink: 1;
     flex-wrap: wrap;
 }
