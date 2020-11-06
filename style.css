@@ -22,7 +22,6 @@ nav {
     width: 100vw;
     background: white;
     z-index: 5;
-    height: 18vh;
 }
 
 nav>.logo-container {
