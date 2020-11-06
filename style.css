@@ -21,7 +21,7 @@ nav {
     width: 100vw;
     background: white;
     z-index: 5;
-    min-height: 4rem;
+    height: 18vh;
 }
 
 nav>.logo-container {
@@ -74,18 +74,19 @@ nav a:hover {
 /* MAIN CAROUSEL */
 main {
     position: relative;
-    top: 4rem;
+    top: 18vh;
 }
 
 main div.slider-container {
     display: block;
     margin: 0 auto;
-    height: 100vh;
+    height: 70vh;
 }
 
 .slide {
+    position: relative;
     display: none;
-    height: 100vh;
+    height: 70vh;
 }
 
 div.slider-container .slide1 {
@@ -119,9 +120,12 @@ div.slider-container .slide4 {
 }
 
 @media only screen and (max-width: 767px) {
+    main {
+        top: 10vh;
+    }
+
     div.slider-container {
         position: relative;
-        top: 4rem;
         height: auto !important;
         min-height: 100%;
     }
